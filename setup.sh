@@ -11,7 +11,7 @@ usage()
 
 		COMMANDS
 		    ssh [/path/to/key]  Add/replace ssh-config rules.
-		                          Key defaults to '~/.ssh/keys/aur'
+		                          Key defaults to '~/.ssh/aur'
 		    hooks               Link hooks from repo root to githooks directory.
 		                          Must be run from repo root.
 _EOF_
@@ -49,7 +49,7 @@ while [[ "${1}" != "" ]]; do
             ;;
         ssh)
             shift
-            keypath="${1:-~/.ssh/keys/aur}"
+            keypath="${1:-~/.ssh/aur}"
             ssh
             ;;
         hooks)
