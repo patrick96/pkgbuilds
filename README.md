@@ -1,7 +1,7 @@
 # PKGBUILDs for [Arch User Repository](https://aur.archlinux.org)
 Includes control scripts for managing AUR packages.
 
-This was originally created by Eli Schwartz and the original sits over [there](https://github.com/eli-schwartz/pkgbuilds)
+This is a fork of Eli Schwartz's [pkgbuilds](https://github.com/eli-schwartz/pkgbuilds) repository's base branch with my own customizations.
 
 ## How it works
 Commit PKGBUILDs in named subdirectories. Export them to the AUR with the included `aurpublish` script, using the subtree push stratagem.
